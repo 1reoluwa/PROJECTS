@@ -1,0 +1,108 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.Menu{
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 2rem;
+}
+.section{
+    margin-bottom: 2rem;
+}
+.img{
+     width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+.sec1 p{
+color: hsl(24, 5%, 18%);
+}
+.sec1 h1{
+   font-family: "Young Serif", serif;
+    font-weight: 400;
+   color:  hsl(30, 10%, 34%);  
+}
+.heading{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+   color:  hsl(14, 45%, 36%);
+}
+.info{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+.prep{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+}
+.ingredient{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px; 
+    color: hsl(24, 5%, 18%);
+}
+.ingredient li::marker {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+.instructions{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px; 
+    padding-left: 1.5rem 0;
+  line-height: 1.6;
+  color: hsl(24, 5%, 18%);
+  list-style-position: outside;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.instructions li {
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+.instructions li::marker {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+.nutrition{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px; 
+}
+.headings{
+     font-family: "Young Serif", serif;
+}
+.sec2{
+    background-color:hsl(330, 100%, 98%) ;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+}
+.sec2 h2{
+ color: hsl(332, 51%, 32%);
+    margin-bottom: 0.5rem;
+    font-weight: 500
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+td {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+}
+td:first-child {
+    color: hsl(30, 10%, 34%);
+    padding-left: 1rem;
+}
+
+td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    padding-right: 1rem;
+    text-align: right;
+}
+.sec5  p{
+color: hsl(24, 5%, 18%);
+}
