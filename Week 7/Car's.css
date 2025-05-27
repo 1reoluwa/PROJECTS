@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-size: 12px;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+}
+.container{
+    display: flex;
+    max-width: 680px;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 380px;
+  }
+  .sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2rem;
+    border-radius: 1px;
+    color:hsla(0, 0%, 100%, 0.75);
+    flex: 1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2rem;
+    color:hsla(0, 0%, 100%, 0.75);
+    flex: 1;
+  }
+  .luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2rem;
+    border-radius: 1px;
+    color:hsla(0, 0%, 100%, 0.75);
+    flex: 1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  .button1{
+    color:hsl(31, 77%, 52%); 
+    border-radius: 18px;
+    padding: 6px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    font-size: 15px;
+    margin-top: 4rem;
+    font-family: "Lexend Deca", sans-serif;
+    margin-bottom: 6px;
+
+    }
+  .button2{
+    color:hsl(184, 100%, 22%); 
+    border-radius: 18px;
+    padding: 6px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    font-size: 15px;
+    margin-top: 4rem;
+    font-family: "Lexend Deca", sans-serif;
+  }
+  .button3{
+  color: hsl(179, 100%, 13%);
+  border-radius: 18px;
+  padding: 6px;
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  font-size: 15px;
+  margin-top: 4rem;
+  font-family: "Lexend Deca", sans-serif;
+  }
+  .p1{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 95px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      max-width: 90%;
+      height: auto;
+    }
+  
+    .sedans, .suv, .luxury {
+      border-radius: 0;
+    }
+  
+    .sedans {
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+  
+    .luxury {
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
+  }
