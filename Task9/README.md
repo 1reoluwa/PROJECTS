@@ -7,10 +7,10 @@ This is a clone of Netflix's homepage built using HTML and CSS only.
 ## 📸 Screenshots
 
 
-![Desktop](Images/img1.png)
+![Homepage](Images/img11.png)
 
 
-![Mobile](Images/img2.png)
+![Mobile](Images/img12.png)
 
 ---
 
